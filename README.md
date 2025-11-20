@@ -1,12 +1,13 @@
-# student-performance-engagement-ai-agents
+📘 Student Performance & Engagement Analyzer with AI Agents
+
 An end-to-end AI-powered Learning Analytics System designed to predict student performance, classify engagement levels, generate personalized study recommendations, and detect behavioral anomalies.
 This project integrates Machine Learning, AI agents, and Power BI dashboards to deliver actionable academic insights.
 
-Project Overview
+🚀 Project Overview
 
 This project simulates a modern education analytics system using three AI Agents:
 
-Agent 1 — Predictive Analytics
+🧠 Agent 1 — Predictive Analytics
 ✔ Predictive Model (Regression)
 
 Predicts student quiz performance based on engagement behavior.
@@ -27,10 +28,10 @@ quiz_score_predictions.csv
 
 Power BI performance dashboard
 
-Dashboard Preview:
+📊 Dashboard Preview:
 
 
- Engagement Classification (High / Medium / Low)
+✔ Engagement Classification (High / Medium / Low)
 
 A RandomForestClassifier predicts the engagement category.
 
@@ -38,7 +39,7 @@ Output:
 
 engagement_level_predictions.csv
 
-Agent 2 — Recommendation Agent
+🎯 Agent 2 — Recommendation Agent
 
 Uses engagement patterns + clustering to provide personalized study strategies.
 
@@ -54,10 +55,10 @@ AI-generated recommendations
 
 student_recommendations.csv
 
-Recommendation Dashboard:
+📊 Recommendation Dashboard:
 
 
-Agent 3 — Anomaly Detection Agent
+🔍 Agent 3 — Anomaly Detection Agent
 
 Detects students with unusual behavior to predict potential dropouts.
 
@@ -75,10 +76,10 @@ student_anomalies.csv
 
 dropout_risk_flag (High Risk / Normal)
 
- Anomalies Dashboard:
+📊 Anomalies Dashboard:
 
 
-Project Structure
+📂 Project Structure
 Students_eng_ai/
 │
 ├─ data/
@@ -105,11 +106,12 @@ Students_eng_ai/
 │       ├─ Student_Performance.pbix
 │       ├─ Recommendations.pbix
 │       └─ Anomalies.pbix
+│
+├─ README.md
+└─ .gitignore
 
-
-
-Technologies Used
-Python
+🛠 Technologies Used
+🔹 Python
 
 Pandas
 
@@ -123,7 +125,7 @@ K-Means Clustering
 
 Isolation Forest
 
- Power BI
+🔹 Power BI
 
 Predictive dashboards
 
@@ -132,7 +134,8 @@ Risk segmentation
 Recommendation tables
 
 Anomaly visualizations
- Tools
+
+🔹 Tools
 
 VS Code
 
